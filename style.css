@@ -1,4 +1,4 @@
-* {
+body {
     font-family: "Roboto", sans-serif;
     font-weight: weight;
     margin: 0px;
@@ -52,7 +52,7 @@
     color: #ff5252;
 }
 
-.nav-item .btn-primary{
+ .btn-primary{
     background-color: #ff5252;
     color: white;
     border-radius: 5px;
@@ -61,17 +61,19 @@
     border: none;
     font-size: 15px;
     font-weight: 500;
-} 
-.nav-item .btn-primary:hover {
+    
+}  .btn-primary:hover {
     background-color: black;
     color: #ff5252;
 }
 
 .content .row {
-    margin-left: 55px;
+    margin-left: 110px;
+    margin-top: 50px;
+    background-color: #fff8f8;
 }
-.col-md-6 .hi{
-    margin-top: 80px;
+.col-md-6 h5{
+    margin-top: 100px;
 }
 
 .hi{
@@ -100,7 +102,7 @@
     font-size: 16px;
    
 }
-.btn-more {
+.btn-outline-primary {
     font-size: 15px;
     background-color: #ff5252;
     padding: 13px 25px;
@@ -110,7 +112,7 @@
     margin: -3px -15px 0px 0px;
 
 }
-.btn-work {
+.btn-dark {
 
     font-size: 15px;
    font-weight: 600;
@@ -118,15 +120,19 @@
     color: #100f0f;
     border-radius: 5px;
     border: none;
+    background-color: #fff8f8;
+
 }
 
-.btn-more:hover {
+.btn-outline-primary:hover {
     background-color: black;
     color: white;
 }
 
-.btn-work:hover {
+.btn-dark:hover {
     color: #ff5252;
+    background-color: #fff8f8;
+    
 }
 
 .person-img img {
@@ -195,5 +201,45 @@
     padding: 10px;
 }
 
+.services h5{
+     color: #ff5252;
+}
+.services h3{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.card-group .card1{
+    padding: 60px;
+    text-align: center;
+    width: 350px;
+    margin-left:90px;
+   
+}
+.card-group h5{
+    color: #333333;
+    font-size: 20px;
+}
+.card-group p {
+    color: #676576;
+    font-size: 16px;
+}
+.card1 i {
+    color: #ffffff;
+    background-color: #ff5252;
+    font-size: 28px;
+    line-height: 58px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 
-
+}
+#ser-card {
+    /* width: 170px;
+    height: 240px; */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(181, 176, 176);
+}
