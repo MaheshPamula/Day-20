@@ -134,7 +134,12 @@ body {
     background-color: #fff8f8;
     
 }
-
+.person{
+    background: url(./images/bg-peoples.png) center no-repeat;
+    background-size: 100;
+    text-align: center;
+    
+}
 
 
 .services h5{
@@ -180,6 +185,125 @@ body {
     box-shadow: 5px 5px 10px rgb(181, 176, 176);
 }
 
+/* ------portfolio css -----------  */
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio h5 {
+    color: var(--font-color);
+    font-size: 25px;
+    line-height: 40px;
+}
+.portfolio h3 {
+    font-size: 55px;
+    font-weight: 600;
+
+}
+
+.port-container{
+    padding: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.port-card {
+     width: 450px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-left: 80px;
+    padding: 25px 40px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    margin-top: -50px;
+    position: relative;
+    background-color: #ffffff;
+}
+.port-card h5{
+    color: #ff5252;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        font-weight: 700;
+
+
+}
+.port-card p{
+    color: #676576;
+     line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+
+
+.price h5{
+    color: #ff5252;
+    margin-left: 67px;
+    font-size: 20px;
+}    
+
+.price h3 {
+    color: #333333;
+    font-weight: bold;
+    margin-left: 67px;
+    font-size: 50px ;
+    
+ }
+
+
+
+
+
+
+
+
+
+
+.test {
+    padding: 160px 0;
+    background: linear-gradient(rgba(5, 4, 4, 0.69), rgba(5, 4, 4, 0.74)), url(./images/testimonial.jpg) no-repeat fixed;
+}
+.test-card {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    width: 350px;
+    height: 200px;
+    
+}
+
+.test-card1 {
+    margin: 20px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    color: #676576;
+}
+
+
+.john h5{
+    color: #100f0f;
+    text-align: center;
+    overflow: hidden;
+}
+.john p {
+    text-align: center;
+    overflow: hidden;
+}
+
+/* .right-icon {
+    padding-top: 30px;
+} */
+
+.right-icon i {
+    margin-left: 10px;
+    text-align: center;
+    
+    
+}
 
 
 
@@ -201,7 +325,7 @@ body {
 
 .contact p {
     color: #676576;
-    letter-spacing: 0.5px;
+     letter-spacing: 0.5px;
     line-height: 28px;
     
 }
@@ -216,6 +340,7 @@ body {
     padding: 10px;
     color: white;
     background-color: black;
+    /* box-shadow: 2px 3px 6px black; */
     border-radius: 50%;
     margin: 7px;
 }
