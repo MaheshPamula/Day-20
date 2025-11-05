@@ -249,6 +249,107 @@ body {
     font-size: 50px ;
     
  }
+ .dl1 h5{
+    font-weight: 600;
+    line-height: 46px;
+ }
+ .dl1 p{
+    color: #676576;
+    margin: 5px 0;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+.dl1 h2{
+    color: #ff5252;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.dl1 ul {
+  list-style: none;   
+  padding-left: 0;    
+}
+
+.dl1 ul li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: #ff5252;      
+}
+
+
+.b1 .btn.btn-outline-dark {
+  padding: 10px 19px;
+  background-color: #ff5252;  
+  color: white;            
+  border: none;            
+     
+}
+
+.b1 .btn.btn-outline-dark:hover {
+  background-color: black; 
+  color: white;            /
+}
+
+
+
+.b2 h5{
+    font-weight: 600;
+    line-height: 46px;
+ }
+ .dl1 p{
+    color: #676576;
+    margin: 5px 0;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+.dl1 h2{
+    color: #ff5252;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.dl1 ul {
+  list-style: none;   
+}
+
+.dl1 ul li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: #ff5252;     
+}
+
+
+.b1 .btn.btn-outline-dark {
+  padding: 10px 19px;
+  background-color: #ff5252;   
+  color: white;            
+  border: none;           
+     
+}
+
+.b1 .btn.btn-outline-dark:hover {
+  background-color: black; 
+  color: white;           
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -340,7 +441,6 @@ body {
     padding: 10px;
     color: white;
     background-color: black;
-    /* box-shadow: 2px 3px 6px black; */
     border-radius: 50%;
     margin: 7px;
 }
