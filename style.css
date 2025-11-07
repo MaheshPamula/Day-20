@@ -1,450 +1,373 @@
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: weight;
-    margin: 0px;
-    padding: 0px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
- .navbar {
-    background: #fff8f8;
-    justify-content: space-between;
-   position: fixed;
-    top: 0;
-  left: 0;
-  z-index: 1000;
-  width: 100%;
-   padding: 15px 0;
-  text-align: center;
+    <title>Fofana.</title>
+    <link rel="icon" type="image/jpg/jpeg" href="./images/favicon.png">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container-fluid cont">
+     
+        <div class="col-2">
+            <a href="#" class="logo">Fofana
+              <span class="logo-dot">.</span>
+          </a>
+        </div>
+           
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonial</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>  </li>
+          <li class="nav-item">
+        <button type="button" class="btn-primary">Hire us</button>  
+        </li> 
+        </ul>
+      </div>
+      </div>
+        
+    </nav>    
+
+<div class="content">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="hi">Hi There, I'am Fofana</h5>
+                <h1 class="dev">Full Stack <br> Developer </h1> <br>
+                <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. <br> Ipsa voluptate reiciendis nesciunt sed, commodi aperiam <br> iste rem blanditiis dicta impedit sequi. Ratione odit, <br> excepturi, numquam a libero maxime aut. Rem?</p>
+               <div>
+                <button class="btn-more">Learn More</button> &nbsp; &nbsp;
+                <button class="btn-work">See our work &nbsp; <span class="right-arr">&#8594;</span></button>
+                
+               </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="person">
+                    <img src="./images/person.png" alt="image">
+                </div>
+            </div>
+    </div>
+</div>   
+
+<br><br><br><br><br>
+
+<section class="content-black py-5">
+  <div class="container2 text-center">
+    <div class="row">
+      <!-- Column 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="graud-cap">
+          <i class="fa-solid fa-graduation-cap fa-2x"></i>
+        </div>
+        <div class="text">
+          <h4>Fast Learn</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing, br  elit. Dolorem natus esse ullam exercitationem soluta ad! Assumenda eum</p>
+        </div>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="tty mb-3">
+          <i class="fa-solid fa-tty"></i>
+        </div>
+        <div class="text1">
+          <h4>Friendly support</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolorem natus esse ullam exercitationem soluta ad! Assumenda eum</p>
+        </div>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-md-6 mb-4">
+        <div class="mouse mb-3">
+       <i class="fa-solid fa-computer-mouse"></i>
+        </div>
+        <div class="text">
+          <h4>Creative</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolorem natus esse ullam exercitationem soluta ad! Assumenda eum</p>
+        </div>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-md-6 mb-4">
+        <div class="cycle mb-3">
+         <i class="fa-solid fa-person-biking"></i>
+        </div>
+        <div class="text1">
+          <h4>Work Hard</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolorem natus esse ullam exercitationem soluta ad! Assumenda eum</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br><br><br><br>
+
+
+  <div class="services">
+      <h5>Services</h5>
+      <h3>We provide the <br> best services </h3>
+          </div>
+
+<br>
+<div class="card-group">
+  <div class="card">
+    <i class="fa-regular fa-pen-to-square"></i>
+    <div class="card-body">
+      <h5 class="card-title">Design</h5>
+      <p class="card-text">Lorem ipsum dolor, sit amet <br> consectetur adipisicing elit.</p>
+    </div>
+  </div>
+  <div class="card" id="ser-card">
+      <i  class="fa-solid fa-code"></i>
+      <div class="card-body" >
+      <h5 class="card-title">Programming</h5>
+      <p class="card-text">Lorem ipsum dolor, sit <br> amet consectetur adipisicing elit.</p>
+    </div>
+  </div>
+  <div class="card">
+<i class="fa-solid fa-bullhorn"></i>
+    <div class="card-body">
+      <h5 class="card-title">Marketing</h5>
+      <p class="card-text">Lorem ipsum dolor, sit amet <br> consectetur adipisicing elit.</p>
+    </div>
+  </div>
+</div>
+
+<br><br><br><br><br><br>
+
+<div class="portfolio">
+      <h5>Portfolio</h5>
+      <h3>See our awesome<br> done project </h3>
+          </div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4 port-container">
+  <div class="col">
+    <div class="card">
+      <img src="./images/portfolio1.jpg" class="card-img-top" alt="...">
+    </div>
+      <div class="port-card">
+  <h5>Design Art</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing</p>
+
+</div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="./images/portfolio2.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="port-card">
+  <h5>Marketing</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing</p>
+
+</div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="./images/portfolio3.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="port-card">
+  <h5>Creative Desin</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing</p>
+
+</div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="./images/portfolio4.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="port-card">
+  <h5>Programming</h5>
+  <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing</p>
+
+</div>
+  </div>
+</div>
+
+
+<br><br><br>
+
+<div class="pricing-head">
+  <h5>Pricing</h5>
+  <h3>choose our pricing</h3>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 pricing-container" >
+  <div class="col-price">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Design</h5>
+        <p class="card-text">Lorem ipsum, dolor sit amet consectetur  adipisicing elit.</p>
+        <br>
+        <h1>$89</h1>
+        <hr>
+        <ul>
+          <li>Free support</li>
+          <li>Update</li>
+          <li>Revision</li>
+          <li>Unlimited</li>
+        </ul>
+        <button class="btn-get">Get Started</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-price">
+    <div class="card h-100">
+      <div class="card-body price-cblack">
+        
+            <h5 class="card-title">Design</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <br>
+            <h1>$99</h1>
+            <hr>
+            <ul>
+              <li>Free support</li>
+              <li>Update</li>
+              <li>Revision</li>
+              <li>Unlimited</li>
+            </ul>
+            <button class="btn-get">Get Started</button>
+        
+      </div> 
+    </div>
+  </div> 
+  <div class="col-price">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Design</h5>
+        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <br>
+        <h1>$69</h1> 
+        <hr>
+        <ul>
+          <li>Free support</li>
+          <li>Update</li>
+          <li>Revision</li>
+          <li>Unlimited</li>
+        </ul>
+        <button class="btn-get">Get Started</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+
+<!-- --------testmonial------  -->
+ <div class="test">
+  <div class="test-cont">
+   <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-test">
+    <div class="card h-100">
+      <div class="test-card1">
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div style="display: flex; padding-top: 20px;">
+            <div class="right-icon"> 
+              <i class="fa-solid fa-quote-right"></i>
+            </div> 
+              <div class="john" style="margin-left: 20px;">
+                <h5>john Doe</h5>
+                <p>Directur</p>
+            </div>
+
+          </div>
+      
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="test-card1">
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div style="display: flex; padding-top: 20px;">
+            <div class="right-icon"> 
+              <i class="fa-solid fa-quote-right"></i>
+            </div> 
+              <div class="john" style="margin-left: 20px;">
+                <h5>john Doe</h5>
+                <p>Directur</p>
+            </div>
+
+          </div>
+    
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="test-card1">
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. </p>
+          <div style="display: flex; padding-top: 20px;">
+            <div class="right-icon"> 
+              <i class="fa-solid fa-quote-right"></i>
+            </div> 
+              <div class="john" style="margin-left: 20px;">
+                <h5>john Doe</h5>
+                <p>Directur</p>
+            </div>
+
+          </div>
+        
+       
+      </div> 
+    </div>
+  </div>
+  </div>
+ </div>
+ </div>
+
+<br><br><br>  <br><br><br> 
+<div class="contact">
+  <h5>Give us a call</h5>
+  <h1>+61 3 8376 6284</h1>
+  <br>
+  <p>contact@domain.com <br> 121 King Street, Melbourne Victoria 3000 Australia</p>
  
+</div>
+<br>
+<div class="social-icons">
+        
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
 
 
-} 
+          <br><br><br><br><br><br><br><br>
 
-.logo {
-    font-size: 36px;
-    text-decoration: none;
-    color: #464646;
-    font-weight: bold;
-    padding: 5px 0px;
-    
-}
 
-.logo:hover{
-    color: black;
-}
 
-.logo-dot {
-    font-size: 36px;
-    color: #ff5252;
-
-}
-
-
-.nav-item a{
-    color: #333333;
-    display: block;
-    font-size: 16px;
-    
-}
-
-.nav-item a:hover {
-    color: #ff5252;
-}
-
- .btn-primary{
-    background-color: #ff5252;
-    color: white;
-    border-radius: 5px;
-    margin: -3px -15px 0px 0px;
-    padding: 12px 30px;
-    border: none;
-    font-size: 15px;
-    font-weight: 500;
-    
-}  .btn-primary:hover {
-    background-color: black;
-    color: #ff5252;
-}
-
-.content .row {
-    margin-left: 110px;
-    margin-top: 50px;
-    background-color: #fff8f8;
-}
-.col-md-6 h5{
-    margin-top: 100px;
-}
-
-.hi{
-    font-size: 20px;
-    color: #ff5252;
-    margin: 0px 0px 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    line-height: 46px;
-
-}
-
-.dev{
-    font-size: 70px;
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    line-height: 66px;
-
-}
-
-.para {
-    color: #676576;
-    letter-spacing: 0.5px;
-    line-height: 28px;
-    font-size: 16px;
-   
-}
-.btn-outline-primary {
-    font-size: 15px;
-    background-color: #ff5252;
-    padding: 13px 25px;
-    color: #ffffff;
-    border-radius: 5px;
-    border: none;
-    margin: -3px -15px 0px 0px;
-
-}
-.btn-dark {
-
-    font-size: 15px;
-   font-weight: 600;
-    padding: 15px 30px;
-    color: #100f0f;
-    border-radius: 5px;
-    border: none;
-    background-color: #fff8f8;
-
-}
-
-.btn-outline-primary:hover {
-    background-color: black;
-    color: white;
-}
-
-.btn-dark:hover {
-    color: #ff5252;
-    background-color: #fff8f8;
-    
-}
-.person{
-    background: url(./images/bg-peoples.png) center no-repeat;
-    background-size: 100;
-    text-align: center;
-    
-}
-
-
-.services h5{
-     color: #ff5252;
-}
-.services h3{
-    font-size: 50px;
-    font-weight: 600;
-    
-}
-.card-group .card1{
-    padding: 60px;
-    text-align: center;
-    width: 350px;
-    margin-left:90px;
-   
-}
-.card-group h5{
-    color: #333333;
-    font-size: 20px;
-}
-.card-group p {
-    color: #676576;
-    font-size: 16px;
-}
-.card1 i {
-    color: #ffffff;
-    background-color: #ff5252;
-    font-size: 28px;
-    line-height: 58px;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-
-}
-#ser-card {
-    /* width: 170px;
-    height: 240px; */
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 5px 5px 10px rgb(181, 176, 176);
-}
-
-/* ------portfolio css -----------  */
-
-.portfolio {
-    text-align: center;
-}
-
-.portfolio h5 {
-    color: var(--font-color);
-    font-size: 25px;
-    line-height: 40px;
-}
-.portfolio h3 {
-    font-size: 55px;
-    font-weight: 600;
-
-}
-
-.port-container{
-    padding: 60px;
-    margin-left: 50px;
-    margin-top: 30px;
-}
-
-.port-card {
-     width: 450px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    margin-left: 80px;
-    padding: 25px 40px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 8px;
-    margin-top: -50px;
-    position: relative;
-    background-color: #ffffff;
-}
-.port-card h5{
-    color: #ff5252;
-        letter-spacing: 0.5px;
-        line-height: 28px;
-        font-weight: 700;
-
-
-}
-.port-card p{
-    color: #676576;
-     line-height: 28px;
-    letter-spacing: 0.5px;
-}
-
-
-
-.price h5{
-    color: #ff5252;
-    margin-left: 67px;
-    font-size: 20px;
-}    
-
-.price h3 {
-    color: #333333;
-    font-weight: bold;
-    margin-left: 67px;
-    font-size: 50px ;
-    
- }
- .dl1 h5{
-    font-weight: 600;
-    line-height: 46px;
- }
- .dl1 p{
-    color: #676576;
-    margin: 5px 0;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-}
-.dl1 h2{
-    color: #ff5252;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-}
-.dl1 ul {
-  list-style: none;   
-  padding-left: 0;    
-}
-
-.dl1 ul li::before {
-  content: "✔";
-  margin-right: 10px;
-  color: #ff5252;      
-}
-
-
-.b1 .btn.btn-outline-dark {
-  padding: 10px 19px;
-  background-color: #ff5252;  
-  color: white;            
-  border: none;            
-     
-}
-
-.b1 .btn.btn-outline-dark:hover {
-  background-color: black; 
-  color: white;            /
-}
-
-
-
-.b2 h5{
-    font-weight: 600;
-    line-height: 46px;
- }
- .dl1 p{
-    color: #676576;
-    margin: 5px 0;
-    line-height: 28px;
-    letter-spacing: 0.5px;
-}
-.dl1 h2{
-    color: #ff5252;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-}
-.dl1 ul {
-  list-style: none;   
-}
-
-.dl1 ul li::before {
-  content: "✔";
-  margin-right: 10px;
-  color: #ff5252;     
-}
-
-
-.b1 .btn.btn-outline-dark {
-  padding: 10px 19px;
-  background-color: #ff5252;   
-  color: white;            
-  border: none;           
-     
-}
-
-.b1 .btn.btn-outline-dark:hover {
-  background-color: black; 
-  color: white;           
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.test {
-    padding: 160px 0;
-    background: linear-gradient(rgba(5, 4, 4, 0.69), rgba(5, 4, 4, 0.74)), url(./images/testimonial.jpg) no-repeat fixed;
-}
-.test-card {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-    width: 350px;
-    height: 200px;
-    
-}
-
-.test-card1 {
-    margin: 20px;
-    letter-spacing: 0.5px;
-    line-height: 28px;
-    color: #676576;
-}
-
-
-.john h5{
-    color: #100f0f;
-    text-align: center;
-    overflow: hidden;
-}
-.john p {
-    text-align: center;
-    overflow: hidden;
-}
-
-/* .right-icon {
-    padding-top: 30px;
-} */
-
-.right-icon i {
-    margin-left: 10px;
-    text-align: center;
-    
-    
-}
-
-
-
-
-.contact {
-    text-align: center;
-}
-
-.contact h5 {
-    color: black;
-    letter-spacing: 0.5px;
-    line-height: 28px;
-}
-
-.contact h2 {
-    color: #ff5252;
-    font-weight: bold;
-}
-
-.contact p {
-    color: #676576;
-     letter-spacing: 0.5px;
-    line-height: 28px;
-    
-}
-
-.social-icons{
-    text-align: center;
-    border-radius: 50%;
-    
-}
-.social-icons a {
-    font-size: 12px;
-    padding: 10px;
-    color: white;
-    background-color: black;
-    border-radius: 50%;
-    margin: 7px;
-}
-
-.social-icons a:hover {
-    background-color: #ff5252;
-}
+</body>
+</html>
